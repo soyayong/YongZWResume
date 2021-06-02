@@ -1,19 +1,18 @@
 import React from "react";
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image, Button } from "react-bootstrap";
 import "./styles/about.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import aboutImage from "./images/about/about.png";
+import aboutImage from "./images/about/ResumeFullBody.png";
+import EmailIcon from "@material-ui/icons/Email";
 
 function About() {
   return (
     <div className="section about" id="about">
       <h1>About</h1>
+      <h6>A small introduction about myself</h6>
       <Row className="about-row">
         <Col lg={4} className="about-col text-center">
-          <ScrollAnimation
-            animateIn="animate__bounceInLeft"
-            // animateOut="animate__bounceOutLeft"
-          >
+          <ScrollAnimation animateIn="animate__bounceInLeft">
             <Image
               className="about-image"
               src={aboutImage}
@@ -23,25 +22,46 @@ function About() {
           </ScrollAnimation>
         </Col>
         <Col lg={8} className="about-row">
-          <ScrollAnimation
-            animateIn="animate__bounceInRight"
-            // animateOut="animate__bounceOutRight"
-          >
-            <h3>12345678</h3>
+          <ScrollAnimation animateIn="animate__bounceInRight">
+            <h3>Yong Zong Wei</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              placeat inventore rerum tempore cupiditate, amet adipisci aut eius
-              facilis quisquam magni ratione maxime officiis earum blanditiis
-              magnam illum obcaecati vero? Odit ipsa facilis officiis fuga
-              voluptate similique sunt exercitationem voluptatibus, illo et
-              fugit eveniet provident quo atque, nesciunt explicabo tenetur!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              placeat inventore rerum tempore cupiditate, amet adipisci aut eius
-              facilis quisquam magni ratione maxime officiis earum blanditiis
-              magnam illum obcaecati vero? Odit ipsa facilis officiis fuga
-              voluptate similique sunt exercitationem voluptatibus, illo et
-              fugit eveniet provident quo atque, nesciunt explicabo tenetur!
+              Design and develop full-stack projects for Shimano Components
+              (Malaysia) Sdn.Bhd.
             </p>
+            <p>
+              I was born on 4 April 1993 in Kuala Pilah, Negeri Sembilan,
+              Malaysia, and Bachelor of Mechatronic Engineering at University
+              Malaysia Pahang, Pekan, Pahang in 2017 June. Currently, work as
+              Shimano Process Control at Shimano Components (Malaysia) Sdn. Bhd.
+              , Pekan Nenas, Pontian, Johor.
+            </p>
+            <p>
+              Experienced LabVIEW full-stack developer with Microsoft SQL Server
+              and data analyst with Qlik Sense in the current company from 2017
+              August. Master skill in javascript, Html, LabVIEW, Qlik Sense, and
+              Microsoft SQL Server that includes performance tuning, data
+              structure, and dynamic SQL.
+            </p>
+            <p>
+              Self-education starting from 2018 to improve developer skills such
+              as SQL Server, Data Science, Javascript, and Qlik. Currently new
+              in a web developer while using ReactJS and ReactNative.
+            </p>
+            <p>
+              Lastly, self-motivation, teamwork, responsibility,
+              problem-solving, communication and ability to work under pressure,
+              and time management will always apply those soft skills.
+            </p>
+            <Button
+              variant="dark"
+              size="lg"
+              target="_blank"
+              href="mailto:soyayong@gmail.com"
+              download
+            >
+              <EmailIcon fontSize="large" />
+              Hire Me
+            </Button>
           </ScrollAnimation>
         </Col>
       </Row>

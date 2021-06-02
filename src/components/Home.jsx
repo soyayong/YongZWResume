@@ -8,17 +8,17 @@ import EmailIcon from "@material-ui/icons/Email";
 import homeImage from "./images/home/ResumeHaftBody.png";
 
 const wordsDisplay = [
+  "LabVIEW Full-stack Developer",
   "Database Developer",
   "Data Analyst",
   "Data Science",
-  "Web Developer",
-  "Full-stack LabVIEW Developer"
+  "Web Developer"
 ];
 let index = 0;
 
 function Home() {
   const [displayName, setDisplayName] = useState(
-    "Full-stack LabVIEW Developer"
+    "LabVIEW Full-stack Developer"
   );
   const intervalRef = useRef({});
   const name = useTypewriter(displayName);
@@ -37,10 +37,11 @@ function Home() {
       <Row>
         <Col lg={6} className="home-col">
           <ScrollAnimation animateIn="animate__backInLeft">
-            <h2>Hello and welcome to my webpage, my name is</h2>
+            <h2>Hello and welcome to my webpage,</h2>
+            <h2>My name is</h2>
             <h1>Yong Zong Wei</h1>
             <p>
-              and I'm <span>{name}</span>
+              and I'm <span className="display">{name}</span>
             </p>
             <Button
               className="button-home"
