@@ -29,7 +29,7 @@ function About() {
               (Malaysia) Sdn.Bhd.
             </p>
             <p>
-              I was born on 4 April 1993 in Kuala Pilah, Negeri Sembilan,
+              I was born on 10 April 1993 in Kuala Pilah, Negeri Sembilan,
               Malaysia, and Bachelor of Mechatronic Engineering at University
               Malaysia Pahang, Pekan, Pahang in 2017 June. Currently, work as
               Shimano Process Control at Shimano Components (Malaysia) Sdn. Bhd.
