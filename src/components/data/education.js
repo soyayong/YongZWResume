@@ -1,35 +1,46 @@
+import React from "react";
+import LinkIcon from "@material-ui/icons/Link";
+
 const education = [
   {
-    date: "20/06/2018",
-    event: "Dépôt de la candidature pour bénéficier du programme EIG",
-    detail: "Dépôt de la candidature pour bénéficier du programme EIG"
+    date: "2021 - Present",
+    url: "https://www.cleverprogrammer.com/pwj",
+    icon: <LinkIcon />,
+    event: "JavaScript",
+    detail:
+      "Web develop using ES6, React, ReactNavie and JS+HTML+CSS. This is a lifetime course with every weekend training."
   },
   {
-    date: "27/06/2018",
-    event: "Projet ExploCode présélectionné pour le programme EIG",
-    detail: "Dépôt de la candidature pour bénéficier du programme EIG"
+    date: "2020 - Present",
+    url: "https://training.brentozar.com/p/live-class-season-pass",
+    icon: <LinkIcon />,
+    event: "SQL Server Training, Fundamentals and Mastering SQL Server",
+    detail:
+      "Course by Instructor Brent Ozar.Topics include indexes tuning,query tuning, parameter sniffing, TempDB and Server Tuning."
   },
   {
-    date: "04/07/2018",
-    event: "Présentation du projet ExploCode au jury EIG à l'hôtel de Cassigny",
-    detail: "Dépôt de la candidature pour bénéficier du programme EIG"
+    date: "2020 - 2021",
+    url: "https://thelead.io/data-science-360",
+    icon: <LinkIcon />,
+    event: "Data Science 360",
+    detail:
+      "The course includes Big Data Analysis, programming for data science, Data Mining & Cleaning, Exploratory Data Analysis, Machine Learning, Modeling, Validation & Problem Solving, Data Visualization, and Story Telling. "
   },
   {
-    date: "15/09/2018",
-    event:
-      "Plusieurs membres de l'équipe se rendent à la Fête de l'humanité pour échanger avec des usagers",
-    detail: "Dépôt de la candidature pour bénéficier du programme EIG"
+    date: "2018 - 2020",
+    event: "Power BI, Qlik View and Qlik Sense",
+    detail: "Course in Udemy for master data analyst."
   },
   {
-    date: "16/09/2018",
-    event: "Le défi ExploCode est sélectionné pour participer au programme EIG",
-    detail: "Dépôt de la candidature pour bénéficier du programme EIG"
+    date: "2017 - 2018",
+    event: "LabVIEW",
+    detail: "Training by Shimano colleagues include LabVIEW core 1 to core 3."
   },
   {
-    date: "20/09/2018",
-    event:
-      "Dépôt de dossier de candidature pour le programme Fonds de transformation de l'action Publique",
-    detail: "Dépôt de la candidature pour bénéficier du programme EIG"
+    date: "2013 - 2017",
+    event: "Bachelor in Mechatronics Engineering, Mechatronics Engineering",
+    detail:
+      "CGPA:3.34 , Study at University Malaysia Pahang(UMP), Pekan, Pahang"
   }
 ];
 

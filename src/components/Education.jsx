@@ -26,6 +26,7 @@ function Education() {
               icon={<SchoolIcon />}
             >
               <h3 dangerouslySetInnerHTML={{ __html: education.event }} />
+              <a href={education.url}>{education.icon}</a>
               <h5 dangerouslySetInnerHTML={{ __html: education.detail }} />
             </VerticalTimelineElement>
           ))}
