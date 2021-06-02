@@ -29,6 +29,10 @@ h5 {
 }
 
 .experience-date {
-  color: #fff;
+  color: #000;
   font-weight: bold;
+}
+
+.experience-list {
+  font-family: "Montserrat", sans-serif;
 }

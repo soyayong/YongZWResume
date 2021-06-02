@@ -49,7 +49,7 @@ const experience = [
         title: "Help to solve the problem faced by students"
       },
       {
-        title: "•	Know how to communication with teachers and students"
+        title: "Know how to communication with teachers and students"
       }
     ]
   }

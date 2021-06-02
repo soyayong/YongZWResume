@@ -8,6 +8,10 @@ import "./styles/experience.css";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
 import experiences from "./data/experience.js";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
 import DoneTwoToneIcon from "@material-ui/icons/DoneTwoTone";
 
 function Experience() {
@@ -30,14 +34,16 @@ function Experience() {
             >
               <h3 dangerouslySetInnerHTML={{ __html: experience.event }} />
               <h5 dangerouslySetInnerHTML={{ __html: experience.area }} />
-              <ul>
+              <List className="experience-list">
                 {experience.details.map((detail, index) => (
-                  <li key={index}>
-                    <DoneTwoToneIcon />
-                    {detail.title}
-                  </li>
+                  <ListItem key={index}>
+                    <ListItemIcon>
+                      <DoneTwoToneIcon />
+                    </ListItemIcon>
+                    <ListItemText>{detail.title}</ListItemText>
+                  </ListItem>
                 ))}
-              </ul>
+              </List>
             </VerticalTimelineElement>
           ))}
           <VerticalTimelineElement
