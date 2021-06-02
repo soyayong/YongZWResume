@@ -12,6 +12,14 @@ p {
   font-weight: bold;
 }
 
+.contact h1:before {
+  content: "『 ";
+}
+
+.contact h1:after {
+  content: " 』";
+}
+
 .contact h3 {
   color: #000;
 }

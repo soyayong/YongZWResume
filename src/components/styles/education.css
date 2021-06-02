@@ -5,15 +5,24 @@
 .education h1 {
   text-align: center;
   padding-bottom: 2%;
+  font-weight: bold;
+}
+
+.education h1:before {
+  content: "『 ";
+}
+
+.education h1:after {
+  content: " 』";
 }
 
 .education h3,
 h5 {
   color: #000;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .education-date {
   color: #000;
-  font-weight: bolder;
+  font-weight: bold;
 }

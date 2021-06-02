@@ -23,6 +23,12 @@ p {
   color: #9acd32 !important;
 }
 
+.display {
+  text-decoration: 3px underline;
+  text-decoration-color: #3f72af;
+  font-size: large;
+}
+
 .image-home {
   width: 90%;
   transform: rotate(0deg);

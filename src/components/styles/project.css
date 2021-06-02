@@ -6,6 +6,15 @@
 .project h1 {
   text-align: center;
   padding-bottom: 2%;
+  font-weight: bold;
+}
+
+.project h1:before {
+  content: "『 ";
+}
+
+.project h1:after {
+  content: " 』";
 }
 
 .project-button {

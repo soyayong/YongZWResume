@@ -6,15 +6,24 @@
 .experience h1 {
   text-align: center;
   padding-bottom: 2%;
+  font-weight: bold;
+}
+
+.experience h1:before {
+  content: "『 ";
+}
+
+.experience h1:after {
+  content: " 』";
 }
 
 .experience h3,
 h5 {
   color: #000;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .experience-date {
   color: #fff;
-  font-weight: bolder;
+  font-weight: bold;
 }
