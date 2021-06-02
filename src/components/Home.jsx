@@ -4,29 +4,26 @@ import "./styles/home.css";
 import useTypewriter from "react-typewriter-hook";
 import ScrollAnimation from "react-animate-on-scroll";
 import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
-import homeImage from "./images/home/home.png";
-import pdf1 from "./file/pdf1.pdf";
-import pdf2 from "./file/pdf2.pdf";
+import EmailIcon from "@material-ui/icons/Email";
+import homeImage from "./images/home/ResumeHaftBody.png";
 
-//Update wordsDisplay data
 const wordsDisplay = [
-  "Yo, did you see that?",
-  "Fine, I' ll show you again.",
-  "1",
-  "2",
-  "3",
-  "事不过三，bye."
+  "Database Developer",
+  "Data Analyst",
+  "Data Science",
+  "Web Developer",
+  "Full-stack LabVIEW Developer"
 ];
 let index = 0;
 
 function Home() {
-  const [displayName, setDisplayName] = useState("Welcome to my webpage");
+  const [displayName, setDisplayName] = useState(
+    "Full-stack LabVIEW Developer"
+  );
   const intervalRef = useRef({});
   const name = useTypewriter(displayName);
   useEffect(() => {
     intervalRef.current = setInterval(() => {
-      // index = Math.floor(Math.random() * wordsDisplay.length);
-      // index = index > 2 ? 0 : ++index;
       index = index > wordsDisplay.length ? 0 : ++index;
       setDisplayName(wordsDisplay[index]);
     }, 5000);
@@ -40,35 +37,32 @@ function Home() {
       <Row>
         <Col lg={6} className="home-col">
           <ScrollAnimation animateIn="animate__backInLeft">
-            <h2>Hello, my name is</h2>
-            <h1>Name</h1>
+            <h2>Hello and welcome to my webpage, my name is</h2>
+            <h1>Yong Zong Wei</h1>
             <p>
               and I'm <span>{name}</span>
-            </p>
-            <p>
-              <span img="Pick Me" /> 👇👇👇 Pick me 👇👇👇
             </p>
             <Button
               className="button-home"
               variant="dark"
               size="lg"
               target="_blank"
-              href={pdf1}
+              href="https://u.pcloud.link/publink/show?code=XZduG9XZFS6lHsiNudjjOnj1w5Un8zrCApQy"
               download
             >
               <PictureAsPdfIcon fontSize="large" />
-              Button 1
+              Resume
             </Button>
             <Button
               className="button-home "
               variant="secondary"
               size="lg"
               target="_blank"
-              href={pdf2}
+              href="mailto:soyayong@gmail.com"
               download
             >
-              <PictureAsPdfIcon fontSize="large" />
-              Button 2
+              <EmailIcon fontSize="large" />
+              Hire Me
             </Button>
           </ScrollAnimation>
         </Col>

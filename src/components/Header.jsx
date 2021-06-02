@@ -29,7 +29,7 @@ function Header() {
       >
         <Container>
           <Navbar.Brand href="#">
-            <h1>Portfolio Title</h1>
+            <h1>Yong ZW Profile</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
