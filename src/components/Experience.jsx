@@ -34,13 +34,15 @@ function Experience() {
             >
               <h3 dangerouslySetInnerHTML={{ __html: experience.event }} />
               <h5 dangerouslySetInnerHTML={{ __html: experience.area }} />
-              <List className="experience-list">
+              <List>
                 {experience.details.map((detail, index) => (
                   <ListItem key={index}>
                     <ListItemIcon>
                       <DoneTwoToneIcon />
                     </ListItemIcon>
-                    <ListItemText>{detail.title}</ListItemText>
+                    <ListItemText className="experience-list">
+                      {detail.title}
+                    </ListItemText>
                   </ListItem>
                 ))}
               </List>

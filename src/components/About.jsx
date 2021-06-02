@@ -49,8 +49,9 @@ function About() {
             </p>
             <p>
               Lastly, self-motivation, teamwork, responsibility,
-              problem-solving, communication and ability to work under pressure,
-              and time management will always apply those soft skills.
+              problem-solving, communication, leadership, and ability to work
+              under pressure, and time management will always apply those soft
+              skills.
             </p>
             <Button
               variant="dark"

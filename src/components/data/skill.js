@@ -1,204 +1,177 @@
 import React from "react";
 import { DiPython } from "react-icons/di";
+import { BsTools } from "react-icons/bs";
+import {
+  SiLabview,
+  SiMicrosoftsqlserver,
+  SiJavascript,
+  SiSmartthings
+} from "react-icons/si";
+import MoreIcon from "@material-ui/icons/More";
 
 const skill = [
   {
-    name: "Python",
+    name: "LabVIEW",
     style: {
-      background: "#122",
-      color: "#fff",
-      width: "5rem",
-      height: "5rem",
+      background: "#666661",
+      color: "#f7eb00",
+      width: "6rem",
+      height: "6rem",
       margin: "10px auto"
     },
-    icon: <DiPython size={70} />,
+    icon: <SiLabview size={70} />,
     detail: [
       {
-        title: "11111"
+        title: "Dataflow programming"
       },
       {
-        title: "22222"
+        title: "Graphical programming (G-code)"
       },
       {
-        title: "33333"
+        title: "NI OPC Systems"
       },
       {
-        title: "44444"
+        title: "DLLs. and .NET assemblies"
       }
     ]
   },
   {
-    name: "Python",
+    name: "Microsoft Sql Server (MSSQL)",
     style: {
-      background: "#122",
+      background: "#0d0d0d",
       color: "#fff",
-      width: "5rem",
-      height: "5rem",
+      width: "6rem",
+      height: "6rem",
       margin: "10px auto"
     },
-    icon: <DiPython size={70} />,
+    icon: <SiMicrosoftsqlserver size={70} />,
     detail: [
       {
-        title: "11111"
+        title: "Query, Index, and Server Tuning"
       },
       {
-        title: "22222"
+        title: "Parameter Sniffing"
       },
       {
-        title: "33333"
+        title: "ColumnstoreIndexes and TempDB"
       },
       {
-        title: "44444"
+        title: "Database Administration (DBA)"
       }
     ]
   },
   {
-    name: "Python",
+    name: "Javascript",
     style: {
-      background: "#122",
-      color: "#fff",
-      width: "5rem",
-      height: "5rem",
+      background: "#000",
+      color: "#f7eb00",
+      width: "6rem",
+      height: "6rem",
       margin: "10px auto"
     },
-    icon: <DiPython size={70} />,
+    icon: <SiJavascript size={70} />,
     detail: [
       {
-        title: "11111"
+        title: "ES6"
       },
       {
-        title: "22222"
+        title: "JQuery"
       },
       {
-        title: "33333"
+        title: "React"
       },
       {
-        title: "44444"
+        title: "React Native"
       }
     ]
   },
   {
-    name: "Python",
+    name: "Others Programming",
     style: {
       background: "#122",
       color: "#fff",
-      width: "5rem",
-      height: "5rem",
+      width: "6rem",
+      height: "6rem",
       margin: "10px auto"
     },
-    icon: <DiPython size={70} />,
+    icon: <MoreIcon size={70} />,
     detail: [
       {
-        title: "11111"
+        title: "SQL (MySQL & MangoDB)"
       },
       {
-        title: "22222"
+        title: "Bootstrap"
       },
       {
-        title: "33333"
+        title: "HTML/CSS"
       },
       {
-        title: "44444"
+        title: "R & Python"
       }
     ]
   },
   {
-    name: "Python",
+    name: "Soft Skills",
     style: {
-      background: "#122",
+      background: "#e60ba4",
       color: "#fff",
-      width: "5rem",
-      height: "5rem",
+      width: "6rem",
+      height: "6rem",
       margin: "10px auto"
     },
-    icon: <DiPython size={70} />,
+    icon: <SiSmartthings size={70} />,
     detail: [
       {
-        title: "11111"
+        title: "Self-motivation"
       },
       {
-        title: "22222"
+        title: "Teamwork"
       },
       {
-        title: "33333"
+        title: "Responsibility"
       },
       {
-        title: "44444"
+        title: "Problem-solving"
+      },
+      {
+        title: "Leadership"
+      },
+      {
+        title: "Time management"
+      },
+      {
+        title: "Ability to work under pressure"
       }
     ]
   },
   {
-    name: "Python",
+    name: "Tools",
     style: {
-      background: "#122",
+      background: "#740be3",
       color: "#fff",
-      width: "5rem",
-      height: "5rem",
+      width: "6rem",
+      height: "6rem",
       margin: "10px auto"
     },
-    icon: <DiPython size={70} />,
+    icon: <BsTools size={70} />,
     detail: [
       {
-        title: "11111"
+        title: "PowerBI & Qlik"
       },
       {
-        title: "22222"
+        title: "Github"
       },
       {
-        title: "33333"
+        title: "Visual Studio Code"
       },
       {
-        title: "44444"
-      }
-    ]
-  },
-  {
-    name: "Python",
-    style: {
-      background: "#122",
-      color: "#fff",
-      width: "5rem",
-      height: "5rem",
-      margin: "10px auto"
-    },
-    icon: <DiPython size={70} />,
-    detail: [
-      {
-        title: "11111"
+        title: "Miscrosoft Office"
       },
       {
-        title: "22222"
+        title: "Git Bash"
       },
       {
-        title: "33333"
-      },
-      {
-        title: "12212"
-      }
-    ]
-  },
-  {
-    name: "Python",
-    style: {
-      background: "#122",
-      color: "#fff",
-      width: "5rem",
-      height: "5rem",
-      margin: "10px auto"
-    },
-    icon: <DiPython size={70} />,
-    detail: [
-      {
-        title: "11111"
-      },
-      {
-        title: "22222"
-      },
-      {
-        title: "33333"
-      },
-      {
-        title: "44444"
+        title: "Jupyter"
       }
     ]
   }

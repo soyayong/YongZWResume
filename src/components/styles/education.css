@@ -24,5 +24,5 @@ h5 {
 
 .education-date {
   color: #000;
-  font-weight: bold;
+  font-weight: bold !important;
 }
