@@ -11,6 +11,7 @@ function Skill() {
     <section className="section skill" id="skill">
       <div>
         <h1>Skills</h1>
+        <h6>I'm quite good at</h6>
       </div>
       <div>
         <Row>

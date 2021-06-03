@@ -6,13 +6,17 @@
 .about h1,
 h2,
 h3,
+h6,
 p {
   font-family: "Montserrat", sans-serif;
+}
+
+.about h1 {
+  text-align: center;
   font-weight: bold;
 }
 
-.about h1,
-h6 {
+.about h6 {
   text-align: center;
 }
 
@@ -25,12 +29,12 @@ h6 {
 }
 
 .about-row {
-  padding: 4.5%;
+  padding: 2%;
 }
 
 .about-col {
   padding: auto 10%;
 }
 .about-image {
-  width: 45%;
+  width: 50%;
 }

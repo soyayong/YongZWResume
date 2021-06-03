@@ -1,6 +1,6 @@
 const langauge = [
   {
-    title: "Chinese",
+    title: "Mandarin",
     detail: "Native",
     percentage: "90"
   },

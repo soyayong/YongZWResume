@@ -13,6 +13,7 @@ function Project() {
     <section className="section project" id="project">
       <div>
         <h1>Projects</h1>
+        <h6>My latest works, projects, and developments showcase</h6>
         <VerticalTimeline>
           {projects.map((project, index) => (
             <VerticalTimelineElement
@@ -24,7 +25,7 @@ function Project() {
             >
               <p dangerouslySetInnerHTML={{ __html: project.label }} />
               <h3 dangerouslySetInnerHTML={{ __html: project.title }} />
-              <h6 dangerouslySetInnerHTML={{ __html: project.subtitle }} />
+              <p dangerouslySetInnerHTML={{ __html: project.subtitle }} />
               <p dangerouslySetInnerHTML={{ __html: project.detail }} />
               <div>
                 {project.links.map((link, index) => (

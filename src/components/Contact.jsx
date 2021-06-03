@@ -10,18 +10,16 @@ import {
 import "./styles/contact.css";
 import interest from "./data/interest.js";
 import language from "./data/language.js";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import EmailIcon from "@material-ui/icons/Email";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import contacts from "./data/contact.js";
 
 function Contact() {
   return (
     <section className="section contact" id="contact">
       <Container>
         <h1>Interests & Languages</h1>
+        <h6>What I like and can speak</h6>
         <Row className="contact-row">
-          <Col lg="6">
+          <Col lg="6" className="contact-col">
             <Carousel>
               {interest.map((interestCarousel, index) => (
                 <Carousel.Item
@@ -50,7 +48,7 @@ function Contact() {
               ))}
             </Carousel>
           </Col>
-          <Col lg="6">
+          <Col lg="6" className="contact-col">
             {language.map((languages, index) => (
               <div key={index}>
                 <h3>{languages.title}</h3>
@@ -67,10 +65,14 @@ function Contact() {
         <Row>
           <Col>
             <h1>Contact</h1>
-            <FacebookIcon fontSize="large" />
-            <InstagramIcon fontSize="large" />
-            <WhatsAppIcon fontSize="large" />
-            <EmailIcon fontSize="large" />
+            <h6>My social media link</h6>
+            <Col className="contact-col">
+              {contacts.map((contact, index) => (
+                <a key={index} className="contact-a" href={contact.url}>
+                  {contact.icon}
+                </a>
+              ))}
+            </Col>
           </Col>
         </Row>
       </Container>

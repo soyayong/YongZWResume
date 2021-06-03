@@ -19,7 +19,7 @@ p {
 }
 
 .button-home a:hover,
-:focus {
+a:focus {
   color: #9acd32 !important;
 }
 

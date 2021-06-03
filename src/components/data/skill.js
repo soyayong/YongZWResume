@@ -1,5 +1,4 @@
 import React from "react";
-import { DiPython } from "react-icons/di";
 import { BsTools } from "react-icons/bs";
 import {
   SiLabview,

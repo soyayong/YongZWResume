@@ -14,6 +14,7 @@ function Education() {
     <section className="section education" id="education">
       <div>
         <h1>Education</h1>
+        <h6>My qualifications and pieces of knowledge</h6>
         <VerticalTimeline>
           {education.map((education, index) => (
             <VerticalTimelineElement

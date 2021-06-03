@@ -19,6 +19,7 @@ function Experience() {
     <section className="section experience" id="experience">
       <div>
         <h1>Experience</h1>
+        <h6>My previous and current jobs</h6>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <VerticalTimelineElement

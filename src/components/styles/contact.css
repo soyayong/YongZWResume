@@ -24,12 +24,33 @@ p {
   color: #000;
 }
 
-.contact-row {
-  margin: 5% 10%;
+.contact a {
+  color: #000;
 }
+
+.contact a:hover {
+  color: #28b0fa !important;
+}
+
+.contact a:focus {
+  color: #000 !important;
+}
+
+.contact-row {
+  margin: 2% 10%;
+}
+
+.contact-col {
+  margin: 5% auto;
+}
+
+.contact-a {
+  margin: auto 1%;
+}
+
 .contact-img {
   width: 400px;
-  height: 350px;
+  height: 380px;
 }
 
 @media (max-width: 1028px) {
