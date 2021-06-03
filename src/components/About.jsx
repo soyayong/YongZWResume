@@ -48,10 +48,10 @@ function About() {
               in a web developer while using ReactJS and ReactNative.
             </p>
             <p>
-              Lastly, self-motivation, teamwork, responsibility,
-              problem-solving, communication, leadership, and ability to work
-              under pressure, and time management will always apply those soft
-              skills.
+              Lastly, the most important thing is to apply soft skills like
+              self-motivation, teamwork, responsibility, problem-solving,
+              communication, leadership, and ability to work under pressure, and
+              time management in my life or working area.
             </p>
             <Button
               variant="dark"
