@@ -50,8 +50,8 @@ function About() {
             <p>
               Lastly, the most important thing is to apply soft skills like
               self-motivation, teamwork, responsibility, problem-solving,
-              communication, leadership, able to work under pressure, and time
-              management in my life or working area.
+              communication, leadership, able to work under pressure, and well
+              time management in my life or working area.
             </p>
             <Button
               variant="dark"
