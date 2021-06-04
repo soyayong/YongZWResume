@@ -23,6 +23,23 @@
   color: #f9f7f7;
 }
 
+.project-labeltitle {
+  color: #000;
+  font-weight: bold !important;
+  margin: 0 auto !important;
+}
+
+.project-subtitle {
+  color: #282829;
+  font-weight: bolder !important;
+  margin: 0 auto !important;
+}
+
+.project-detail {
+  color: #000;
+  font-weight: bold !important;
+}
+
 .project-button {
-  margin: 1% 3% 0% 0%;
+  margin: 4% 1% auto;
 }
