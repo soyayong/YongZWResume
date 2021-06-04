@@ -198,10 +198,6 @@ const project = [
       {
         url: "https://github.com/soyayong/YongZWResume",
         text: "Resume Webpage"
-      },
-      {
-        url: "https://github.com/soyayong/YongZWResume",
-        text: "Resume Soure Code"
       }
     ]
   },
