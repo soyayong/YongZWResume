@@ -15,6 +15,20 @@ const experience = [
       },
       {
         title: "Data analysis OEE data using Qlik Sense"
+      },
+      {
+        title: "Apply ETL /ELT process in MSSQL with merge concept"
+      },
+      {
+        title:
+          "QVD (QlikView Data) scripts with incremental load apply in Qlik Sense for fast data transfer"
+      },
+      {
+        title: "MDM (Master Data Management) apply in data structure design"
+      },
+      {
+        title:
+          "OSEMN concept:- Obtain is to Gather data from sources, Scrub for Clean data to machine readable format, Explore to Find significant patterns and trends, Model for Train models to predict and forecast, Interpret is to Explain model and results  "
       }
     ]
   },
