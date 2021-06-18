@@ -29,6 +29,10 @@ const experience = [
       {
         title:
           "OSEMN concept:- Obtain is to Gather data from sources, Scrub for Clean data to machine readable format, Explore to Find significant patterns and trends, Model for Train models to predict and forecast, Interpret is to Explain model and results  "
+      },
+      {
+        title:
+          "PowerBI tools using in MSSQL cpu utilization that include indexes, deadlock, query & performance"
       }
     ]
   },
