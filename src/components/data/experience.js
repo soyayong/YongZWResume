@@ -1,6 +1,26 @@
 const experience = [
   {
-    date: "Aug 2017 – Present",
+    date: "Aug 2021 - Present",
+    event: "Data Science",
+    area:
+      "MC Crenergy Sdn.Bhd. , SetiaWalk, Pusat Bandar Puchong, Puchong, Selangor",
+    details: [
+      {
+        title: "Data Integration using SSIS"
+      },
+      {
+        title: "Data Warehouse in MSSQL"
+      },
+      {
+        title: "Machine Learning (ML) and AI for route optimization project"
+      },
+      {
+        title: "Split data from JSON to Database"
+      }
+    ]
+  },
+  {
+    date: "Aug 2017 – Aug 2021",
     event: "Shimano Process Control (MES-SPC)",
     area:
       "Shimano Components (Malaysia) Sdn. Bhd. , Pekan Nenas, Pontian, Johor",

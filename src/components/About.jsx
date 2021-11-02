@@ -32,8 +32,8 @@ function About() {
               I was born on 10 April 1993 in Kuala Pilah, Negeri Sembilan,
               Malaysia, and Bachelor of Mechatronic Engineering at University
               Malaysia Pahang, Pekan, Pahang in 2017 June. Currently, work as
-              Shimano Process Control at Shimano Components (Malaysia) Sdn. Bhd.
-              , Pekan Nenas, Pontian, Johor.
+              Data Scientist at MC Crenergy Sdn.Bhd. (H-5-2, Setiawalk,
+              Persiaran Wawasan, Pusat Bandar Puchong, 47160 Puchong, Selangor)
             </p>
             <p>
               Experienced LabVIEW full-stack developer with Microsoft SQL Server
