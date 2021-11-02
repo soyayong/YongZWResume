@@ -8,7 +8,7 @@ const education = [
     icon: <LinkIcon />,
     event: "Professional Certificate in Data Science & Analytics",
     detail:
-      "The course include Python, SQL, Cloud, EDA, AI, ML(Machine Learning) and DL(Deep Learning)."
+      "The course include Python, SQL, Cloud, EDA, AI, ML(Machine Learning) and DL(Deep Learning). "
   },
   {
     date: "2021 - Present",
